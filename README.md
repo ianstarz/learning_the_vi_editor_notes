@@ -19,8 +19,12 @@ _vi commands_
 - cb - change to beginning of word
 - c2b - change back two words
 - c$ - change to end of line
+- C - change to end of line (equivalent to c$)
 - c0 - change to beginning of line
+- cc - change line
 
+vi commands often follow the format: (command)(number)(text object)
+which is equivalent: (number)(command)(text object)
 
 _ex commands_
 - :e! - revert all changes in the session to original file
