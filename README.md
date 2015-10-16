@@ -22,6 +22,16 @@ _vi commands_
 - C - change to end of line (equivalent to c$)
 - c0 - change to beginning of line
 - cc - change line
+- ~ - change the case of the letter you're on
+- dw - delete word
+- dd - delete line
+- D - delete line
+- 2dd - delete 2 lines
+- x - delete character
+- X delete previous character
+- 2x - delete 2 characters
+
+
 
 vi commands often follow the format: (command)(number)(text object)
 which is equivalent: (number)(command)(text object)
